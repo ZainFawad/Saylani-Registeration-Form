@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: red;
+    width: 200px;
+
+}
+
+.box2 {
+    background-color: orange;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+
+.box3 {
+    background-color: purple;
+    width: 200px;
+
+}
+
+.container {
+    display: flex;
+    background-color: green;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.newParent {
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box10 {
+    background-color: green;
+}
+
+.box20 {
+    background-color: purple;
+}
+.box30 {
+    background-color: black;
+}
+
+.logo {
+    text-align: center;
+}
+.logoIcons img {
+    width: 30px;
+    height: 30px;
+}
+.logoIcons {}
+
+.heading {}
+
+.portalBtn {}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnPortal {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #0D6DB7;
+    background-color: transparent;
+    color: #0D6DB7;
+}
+
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header {
+    /* background-color: #ECECED; */
+    padding: 10px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.navBtns {
+    display: flex;
+    justify-content: center;
+}
+
+.navBtns button {
+    padding: 8px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.inputContainer input{
+    padding: 16px;
+    border: 1px solid green;
+    border-radius: 8px;
+    outline: none;
+}
+.inputContainer select{
+    padding: 16px;
+    border: 1px solid green;
+    border-radius: 8px;
+    outline: none;
+}
+.inputContainer label{
+    color: blue;
+}
+.row1 {
+        display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 20px; 
+}
+.oi{
+    width: 100%;
+    /* padding-right:auto ;
+    padding-left:auto ; */
+    background-color: whitesmoke;
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    outline: none;
+    line-height: 30px;
+    padding: 30px 110px;
+    margin-top: 70px;
+}
+
+.submit{
+    margin-top: 30px;
+    color: white;
+    width: 95%;
+    background-color: blue;
+    /* display: block; */
+    padding: 16px;
+    border-radius: 8px;
+    outline: none;
+    padding-left: auto;
+    padding-right: auto;
+display: flex;
+flex: 1;
+}
+#picture{
+    display: none;
+}
+#laptop{
+    margin-bottom: 100px;
+}
+.uploadpic{
+    border-radius: 9px;
+    border: 2px solid white;
+    border-top-width:95px;
+}
+
+.uploadpic:hover{
+    border-color: darkgrey;
+}
